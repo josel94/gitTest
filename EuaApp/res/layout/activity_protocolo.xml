@@ -1,0 +1,241 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#002664"
+    android:orientation="vertical"
+    android:layout_marginBottom="0dp"
+     >
+
+   <LinearLayout 
+    
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:layout_marginBottom="30dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginTop="30dp"
+    android:layout_marginRight="30dp">
+    
+    <LinearLayout     
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="15dp"
+	    android:orientation="horizontal"
+	  >
+	   <LinearLayout     
+	    android:layout_width="fill_parent"
+	    android:layout_height="match_parent"
+	    android:layout_weight=".5"
+	    android:orientation="vertical">
+
+	       <ImageView
+	           android:id="@+id/comunicacion"
+	           android:layout_width="50dp"
+	           android:layout_height="50dp"
+	           android:layout_marginLeft="40dp"
+	           android:layout_marginTop="10dp"
+	           android:layout_marginRight="5dp"
+	           android:onClick="comunicar"
+	           android:src="@drawable/modelo_comunicacion" />
+       
+   		 <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="#BB133E"
+		android:textSize="17sp"
+		android:textStyle="bold"
+		android:shadowColor="#BB133E"
+		android:shadowDx="0"
+		android:shadowDy="1"
+		android:shadowRadius="3"
+        android:text="@string/comunicacion" />    
+    
+ 		</LinearLayout>    
+ 		
+	   <LinearLayout     
+	    android:layout_width="fill_parent"
+	    android:layout_height="match_parent"
+	    android:layout_weight=".5"
+	    android:orientation="vertical">
+   		 
+	        <ImageView
+	           android:id="@+id/aspecto"
+	           android:layout_width="50dp"
+	           android:layout_height="50dp"
+	           android:layout_marginLeft="35dp"
+	           android:layout_marginTop="10dp"
+	           android:layout_marginRight="10dp"
+	           android:onClick="aspectos"
+	           android:src="@drawable/aspecto_general" />
+	       
+	        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25dp"
+        android:textColor="#BB133E"
+		android:textSize="17sp"
+		android:textStyle="bold"
+		android:shadowColor="#BB133E"
+		android:shadowDx="0"
+		android:shadowDy="1"
+		android:shadowRadius="3"
+        android:text="@string/aspectos" />   
+	       
+	   </LinearLayout>
+     </LinearLayout>
+     
+     <LinearLayout     
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_marginTop="15dp"
+	  >
+	   <LinearLayout     
+	    android:layout_width="fill_parent"
+	    android:layout_height="match_parent"
+	    android:layout_weight=".5"
+	    android:orientation="vertical">
+
+	       <ImageView
+	           android:id="@+id/agenda1"
+	           android:layout_width="50dp"
+	           android:layout_height="50dp"
+	           android:layout_marginLeft="40dp"
+	           android:layout_marginTop="10dp"
+	           android:layout_marginRight="5dp"
+	           android:onClick="agenda"
+	           android:src="@drawable/agenda" />
+       
+   		 <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25dp"
+        android:textColor="#BB133E"
+		android:textSize="17sp"
+		android:textStyle="bold"
+		android:shadowColor="#BB133E"
+		android:shadowDx="0"
+		android:shadowDy="1"
+		android:shadowRadius="3"
+        android:text="@string/agenda1" />    
+    
+ 		</LinearLayout>    
+ 		
+	   <LinearLayout     
+	    android:layout_width="fill_parent"
+	    android:layout_height="match_parent"
+	    android:layout_weight=".5"
+	    android:orientation="vertical">
+   		 
+	        <ImageView
+	           android:id="@+id/horario"
+	           android:layout_width="50dp"
+	           android:layout_height="50dp"
+	           android:layout_marginLeft="35dp"
+	           android:layout_marginTop="10dp"
+	           android:layout_marginRight="10dp"
+	           android:onClick="horario"
+	           android:src="@drawable/horario" />
+	       
+	        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25dp"
+        android:textColor="#BB133E"
+		android:textSize="17sp"
+		android:textStyle="bold"
+		android:shadowColor="#BB133E"
+		android:shadowDx="0"
+		android:shadowDy="1"
+		android:shadowRadius="3"
+        android:text="@string/horario" />   
+	       
+	   </LinearLayout>
+     </LinearLayout>
+     
+      <LinearLayout     
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_marginTop="15dp"
+	  >
+	   <LinearLayout     
+	    android:layout_width="fill_parent"
+	    android:layout_height="match_parent"
+	    android:layout_weight=".5"
+	    android:orientation="vertical">
+
+	       <ImageView
+	           android:id="@+id/codigo"
+	           android:layout_width="50dp"
+	           android:layout_height="50dp"
+	           android:layout_marginLeft="40dp"
+	           android:layout_marginTop="10dp"
+	           android:layout_marginRight="5dp"
+	           android:onClick="vestimenta"
+	           android:src="@drawable/vestimenta" />
+       
+   		 <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#BB133E"
+		android:textSize="17sp"
+		android:textStyle="bold"
+		android:shadowColor="#BB133E"
+		android:shadowDx="0"
+		android:shadowDy="1"
+		android:shadowRadius="3"
+        android:text="@string/codigo" />    
+    
+ 		</LinearLayout>    
+ 		
+	   <LinearLayout     
+	    android:layout_width="fill_parent"
+	    android:layout_height="match_parent"
+	    android:layout_weight=".5"
+	    android:orientation="vertical">
+   		 
+	        <ImageView
+	           android:id="@+id/recomendacion"
+	           android:layout_width="50dp"
+	           android:layout_height="50dp"
+	           android:layout_marginLeft="35dp"
+	           android:layout_marginTop="10dp"
+	           android:layout_marginRight="10dp"
+	           android:onClick="recomendacion"
+	           android:src="@drawable/recomendacion" />
+	       
+	        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="#BB133E"
+		android:textSize="17sp"
+		android:textStyle="bold"
+		android:shadowColor="#BB133E"
+		android:shadowDx="0"
+		android:shadowDy="1"
+		android:shadowRadius="3"
+        android:text="@string/recomendacion1" />   
+	       
+	   </LinearLayout>
+     </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

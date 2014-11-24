@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Eua App</string>
+    <string name="app_name1">TraBuss</string>
+    <string name="Titulo">Informacion General</string>
+    <string name="pais">     Nombre del pais: Estados Unidos de America \n \n
+    Capital: Washington D.C\n \n
+    Idioma: Inglés\n \n
+    Tramites: Se requiere visa para viajar\n \n
+    Aerolineas Recomendadas: Volaris, Interjet, American Airlines, United Airlines, Delta, US Airlines, Aeroméxico </string>
+    <string name="link">Tipo de Cambio: http://www.banxico.org.mx/dyn/portal-mercado-cambiario/index.html</string>
+    <string name="action_settings">Settings</string>
+    <string name="antes">Antes de Salir</string>
+    <string name="informacion1">Información</string>
+    <string name="protocolo1">Protocolo de Negocios</string>
+    <string name="emergencia1">Números de Emergencia</string>
+    <string name="app">App</string>
+    <string name="title_activity_antes_de_salir">Antes de Salir</string>
+    <string name="descripcion">        \n \nAl realizar el viaje a Estados Unidos,        
+         le recomendamos tomar ciertas consideraciones antes de ir al país.
+         Esta seccion le dara a conocer ciertos tramites y 
+         recomendaciones en la planeación de su viaje.\n \n</string>
+    <string name="recomendaciones1">Recomendaciones Generales</string>
+    <string name="tramites1">Tramites</string>
+    <string name="clima1">Clima</string>
+    <string name="title_activity_recomendacion">Recomendaciones Generales</string>
+    <string name="recomendacion2">Le sugerimos ver ciertos aspectos de salubridad en la sección de Salud, 
+        o si está interesado en visitar algún lugar turístico entre al apartado de Lugares de Interés,
+         si quiere saber sobre la Telefonía e Internet de Alemania entre a su respectivo apartado
+		y para conocer sobre los viajes al país entre a la sección de Aerolíneas.</string>
+    <string name="salud">Salud</string>
+    <string name="interes">Lugares de Interes</string>
+    <string name="telefono">Telefonos de Emergencias</string>
+    <string name="avion">Aereolineas</string>
+    <string name="title_activity_tramite">Tramites</string>
+    <string name="tramites2">Para la tramitología en la forma para poder viajar, 
+        acceda a la sección de VISA y Pasaportes, si desea conocer los impuestos en la forma de
+        exportar en el país, la sección de Tramites Arancelarios le dará más información.</string>
+    <string name="pasaporte">Visa y Pasaporte</string>
+    <string name="tramite_a">Tramites Arancelarios</string>
+    <string name="title_activity_protocolo">Protocolo de Negocios</string>
+    <string name="comunicacion">Modelo de Comunicar</string>
+    <string name="aspectos">Aspectos Generales</string>
+    <string name="agenda1">Agenda</string>
+    <string name="horario">Horario</string>
+    <string name="codigo">Vestimenta</string>
+    <string name="recomendacion1">Recomendación</string>
+    <string name="title_activity_comunicar">Modelo de Comunicacion</string>
+    <string name="comunicar">Dentro del modelo de comunicación debemos considerar: \n \n \n
+        • Son directos. \n \n
+		• Siempre puedes preguntar si no entiendes algo. \n \n
+		• No les gusta el silencio. \n \n
+		• Antes de interrumpir di excuse me en una pausa. \n \n
+		• No hay diferencia entre hombre y mujer.        </string>
+    <string name="title_activity_apectos_generales">Apectos Generales</string>
+    <string name="aspectosGenerales">Detalles importantes para poder realizar una negociación exitosa: \n \n \n
+        •Las meetings son informales y relajadas pero serias en cuanto a su contenido. \n \n
+        •Les gusta las estadísticas y números. \n \n
+        •Les importan bastante las deadlines. \n \n
+        •Más que relaciones o beneficios a largo plazo, les importa llegar al contrato firmado lo más rápido posible.</string>
+    <string name="title_activity_agenda">Agenda</string>
+    <string name="agenda">Días recomendados para hacer reuniones de negocios, horarios, puntualidad: \n \n \n
+        •En el caso de una reunión temprana, se recomienda de 8 de la mañana a 10 de la mañana. \n \n
+        •Puntualidad:\n\n
+         Hora Acordada: Perfecto.\n \n
+         5 min tarde: Avisar que va retrasado. \n \n
+         15 min tarde: Reprogramar la cita.</string>
+    <string name="title_activity_horario">Horario de Alimentos</string>
+    <string name="horario1">En caso de que la negociación haya sido un exito se recomienda: \n \n \n
+        Se puede ir a un restaurante después de una reunión de negocios exitosa
+        como una celebración pero en este caso es más bien un restaurante elegante, 
+        no se come comida rápida ya que se considera muy casual</string>
+    <string name="title_activity_vestimenta">Codigo de Vestimenta</string>
+    <string name="vestimenta">Recomendaciones Generales para ir vestido de acuerdo a la ocasión: \n \n \n
+        •Los hombres deben usar traje (en caso de usar saco solo se abrocha forzosamente el primer botón
+        , el segundo es opcional pero nunca el tercero) las normas de los botones aplican de igual
+         manera si se está usando un chaleco. La corbata es un punto adicional pero debe de estar 
+         bien amarrada porque si está mal amarrada da una mala imagen. 
+         La corbata de moño se deja solo para eventos muy formales al igual que los esmóquines. \n \n
+         • Mujer: Vestimenta formal, con poca joyería, La blusa puede ser de manga larga o manga
+          corta pero debe tener las mangas porque sin las mangas se considera muy sport.
+           Otro punto importante de la blusa es que no debe ser transparentosa, al igual que la falda
+            y el pantalón en caso de usar pantalón, ya que se toma a vulgaridad. El saco en caso de usarse 
+            también sigue las reglas de los hombres. </string>
+    <string name="title_activity_recomendar">Recomendaciones</string>
+    <string name="recomendar">Aspectos a tomar en cuenta para las reuniones de negocios: \n \n \n
+        No firman contratos sin consultar a un abogado. \n \n
+        •Les gustan las business cards.\n \n
+        •No se acostumbra dar regalos.\n \n
+        •La participación en meetings es importante o pensarán que no sabes mucho.</string>
+    <string name="title_activity_salud">Salud</string>
+    <string name="salud1">Si se dirige hacia Estados Unidos las vacunas obligatorias y recomendadas son las siguientes: \n \n                                                             
+Vacunas generalmente recomendadas: \n \n
+•Tétanos-difteria. \n \n
+Vacunas recomendadas en situaciones especiales: \n \n
+•Encefalitis Centroeuropea, Hepatitis B, Gripe, Neumocócica, Triple Vírica.        </string>
+    <string name="title_activity_visa">Visa y Pasaporte</string>
+    <string name="visa">Se requiere visa?  Liga a la página que indica los trámites para obtenerla es la siguiente: \n
+        Liga para obtener visa: http://spanish.mexico.usembassy.gov/es/visas.html   \n     \n
+Los nacionales mexicanos necesitan visa para poder entrar a territorio estadounidense, ya sea como turista o de negocios.
+Atención con el tiempo de vigencia requerido para obtener la visa. 
+      
+    </string>
+
+</resources>

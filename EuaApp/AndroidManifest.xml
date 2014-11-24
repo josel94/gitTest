@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.euaapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name1"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AntesDeSalir"
+            android:label="@string/title_activity_antes_de_salir"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.euaapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Recomendacion"
+            android:label="@string/title_activity_recomendacion"
+            android:parentActivityName="com.example.euaapp" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.euaapp" />
+        </activity>
+        <activity
+            android:name=".Tramite"
+            android:label="@string/title_activity_tramite"
+            android:parentActivityName="com.example.euaapp" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.euaapp" />
+        </activity>
+        <activity
+            android:name=".Protocolo"
+            android:label="@string/title_activity_protocolo"
+            android:parentActivityName="com.example.euaapp" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.euaapp" />
+        </activity>
+        <activity
+            android:name=".Comunicar"
+            android:label="@string/title_activity_comunicar"
+            android:parentActivityName="com.example.euaapp" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.euaapp" />
+        </activity>
+        <activity
+            android:name=".ApectosGenerales"
+            android:label="@string/title_activity_apectos_generales"
+            android:parentActivityName="com.example.euaapp" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.euaapp" />
+        </activity>
+        <activity
+            android:name=".Agenda"
+            android:label="@string/title_activity_agenda"
+            android:parentActivityName="com.example.euaapp" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.euaapp" />
+        </activity>
+        <activity
+            android:name=".Horario"
+            android:label="@string/title_activity_horario"
+            android:parentActivityName="com.example.euaapp" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.euaapp" />
+        </activity>
+        <activity
+            android:name=".Vestimenta"
+            android:label="@string/title_activity_vestimenta"
+            android:parentActivityName="com.example.euaapp" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.euaapp" />
+        </activity>
+        <activity
+            android:name=".Recomendar"
+            android:label="@string/title_activity_recomendar"
+            android:parentActivityName="com.example.euaapp" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.euaapp" />
+        </activity>
+        <activity
+            android:name=".Salud"
+            android:label="@string/title_activity_salud"
+            android:parentActivityName="com.example.euaapp" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.euaapp" />
+        </activity>
+        <activity
+            android:name=".Visa"
+            android:label="@string/title_activity_visa"
+            android:parentActivityName="com.example.euaapp" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.euaapp" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#002664"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/descripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25dp"
+        android:textAppearance="@style/Texto2"
+        android:text="@string/descripcion"
+        android:elevation="5dp" 
+        />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:background="#BB133E"
+        android:onClick="recomendacionGen"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/recomendaciones"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+        	android:layout_marginTop="18dp"
+            android:layout_weight="1"
+            android:src="@drawable/lib_roja" />
+        
+          <TextView
+        android:id="@+id/recomendaciones1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="2"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="@string/recomendaciones1"
+        android:textColor="#ffffff"/>
+    
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:onClick="verTramite"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/tramites"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="18dp"
+            android:layout_weight="0.40"
+            android:src="@drawable/tramite_rojo" />
+        
+         <TextView
+        android:id="@+id/tramites1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="2"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="@string/tramites1"
+        android:textColor="#BB133E"/>
+
+        </LinearLayout>
+        
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:background="#BB133E"
+        android:orientation="horizontal" >
+
+         <ImageView
+         android:id="@+id/clima"
+         android:layout_width="50dp"
+            android:layout_height="50dp"	
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="18dp"
+            android:layout_weight="0.40"
+         android:src="@drawable/sol" />
+         
+          <TextView
+        android:id="@+id/clima1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="2"
+        android:text="@string/clima1"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"/>
+        
+         </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,86 @@
+
+<LinearLayout    
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#002664"
+    android:orientation="vertical"
+    
+     >
+    
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25dp"
+        android:textAppearance="@style/Texto2"
+        android:text="@string/tramites2" />
+     
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="78dp"
+         android:layout_marginLeft="15dp"
+         android:layout_marginRight="15dp"
+         android:layout_marginTop="10dp"
+         android:background="#BB133E"
+         android:onClick="visa"
+         android:orientation="horizontal" >
+
+         <ImageView
+             android:id="@+id/pasaporte"
+             android:layout_width="50dp"
+             android:layout_height="50dp"
+             android:layout_marginLeft="10dp"
+        	 android:layout_marginTop="14dp"
+             android:layout_weight="1"
+             android:src="@drawable/pasaporte" />
+         
+          <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="2"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="@string/pasaporte"
+        android:textColor="#ffffff"/>
+     </LinearLayout>
+     
+      <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="78dp"
+         android:layout_marginLeft="15dp"
+         android:layout_marginRight="15dp"
+         android:layout_marginTop="10dp"
+         android:background="#ffffff"
+         android:orientation="horizontal" >
+
+          <ImageView
+              android:id="@+id/tramite_a"
+              android:layout_width="50dp"
+             android:layout_height="50dp"
+             android:layout_marginLeft="10dp"
+        	 android:layout_marginTop="14dp"
+             android:layout_weight="1"
+              android:src="@drawable/tramites_a" />
+          
+          <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="2"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="@string/tramite_a"
+        android:textColor="#BB133E"/>
+         
+         </LinearLayout>
+    
+    </LinearLayout>
+

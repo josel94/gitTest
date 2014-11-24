@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="MyStyle">
+    <item name="android:textColor">#ffffff</item>
+    <item name="android:textSize">24sp</item>
+
+    <item name="android:shadowColor">#dddddd</item>
+    <item name="android:shadowDx">1</item>
+    <item name="android:shadowDy">2</item>
+    <item name="android:shadowRadius">3</item>
+</style>
+
+ <style name="Texto">
+    <item name="android:textColor">#ffffff</item>
+    <item name="android:textSize">12sp</item>
+	<item name="android:textStyle">italic</item>
+    <item name="android:shadowColor">#dddddd</item>
+    <item name="android:shadowDx">0</item>
+    <item name="android:shadowDy">1</item>
+    <item name="android:shadowRadius">3</item>
+</style>
+
+  <style name="Texto1">
+    <item name="android:textColor">#ffffff</item>
+    <item name="android:textSize">14sp</item>
+	<item name="android:textStyle">bold</item>
+    <item name="android:shadowColor">#dddddd</item>
+    <item name="android:shadowDx">0</item>
+    <item name="android:shadowDy">1</item>
+    <item name="android:shadowRadius">3</item>
+</style>
+
+  <style name="Texto2">
+    <item name="android:textColor">#ffffff</item>
+    <item name="android:textSize">17sp</item>
+	<item name="android:textStyle">italic</item>
+    <item name="android:shadowColor">#dddddd</item>
+    <item name="android:shadowDx">0</item>
+    <item name="android:shadowDy">1</item>
+    <item name="android:shadowRadius">3</item>
+</style>
+
+</resources>
